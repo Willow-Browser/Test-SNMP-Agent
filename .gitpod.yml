@@ -1,0 +1,8 @@
+image: gitpod/workspace-dotnet
+
+vscode:
+  extensions:
+    - muhammad-sammy.csharp
+    - EditorConfig.EditorConfig
+    - streetsidesoftware.code-spell-checker
+    - ms-azuretools.vscode-docker
