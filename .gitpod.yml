@@ -4,3 +4,4 @@ vscode:
   extensions:
     - muhammad-sammy.csharp
     - EditorConfig.EditorConfig
+    - streetsidesoftware.code-spell-checker
