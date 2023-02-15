@@ -117,6 +117,7 @@ namespace snmpd
             var piplineFactory = new SnmpApplicationFactory(store, membership, handlerFactory);
             using var engine = new SnmpEngine(piplineFactory, new Listener { Users = users }, new EngineGroup(idEngine161));
             engine.Listener.AddBinding(new IPEndPoint(IPAddress.Any, 161));
+            engine.Listener.AddBinding(new IPEndPoint(IPAddress.Any, 22050));
             engine.Listener.ExceptionRaised += Engine_ExceptionRaised;
             engine.Listener.MessageReceived += RequestReceived;
             engine.Start();
