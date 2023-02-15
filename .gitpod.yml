@@ -5,3 +5,4 @@ vscode:
     - muhammad-sammy.csharp
     - EditorConfig.EditorConfig
     - streetsidesoftware.code-spell-checker
+    - ms-azuretools.vscode-docker
