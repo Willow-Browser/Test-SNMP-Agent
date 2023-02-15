@@ -8,7 +8,7 @@ namespace Engine.Pipeline
     /// <summary>
     /// Normal SNMP context class. It is v1 and v2c specific.
     /// </summary>
-    internal sealed class NormalSnmpContext : SnmpContextBase
+    public sealed class NormalSnmpContext : SnmpContextBase
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="NormalSnmpContext"/> class.

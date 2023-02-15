@@ -19,7 +19,7 @@ namespace snmpd
                 return;
             }
 
-            var idEngine161 = ByteTool.ConvertDecimal("80004fb805636c6f75644dab22cc");
+            var idEngine161 = ByteTool.Convert("80004fb805636c6f75644dab22cc".Cast<char>());
             var store = new ObjectStore();
             store.Add(new SysDescr());
             store.Add(new SysObjectId());

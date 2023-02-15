@@ -8,7 +8,7 @@ namespace Engine.Pipeline
     /// <summary>
     /// SNMP context.
     /// </summary>
-    internal abstract class SnmpContextBase : ISnmpContext
+    public abstract class SnmpContextBase : ISnmpContext
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="SnmpContextBase"/> class.
