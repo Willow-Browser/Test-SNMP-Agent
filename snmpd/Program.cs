@@ -26,12 +26,12 @@ namespace snmpd
             store.Add(new SysUpTime());
             store.Add(new SysContact());
             store.Add(new SysName());
-            // store.Add(new SysLocation());
-            // store.Add(new SysServices());
-            // store.Add(new SysORLastChange());
-            // store.Add(new SysORTable());
-            // store.Add(new IfNumber());
-            // store.Add(new IfTable());
+            store.Add(new SysLocation());
+            store.Add(new SysServices());
+            store.Add(new SysORLastChange());
+            store.Add(new SysORTable());
+            store.Add(new IfNumber());
+            store.Add(new IfTable());
 
             var users = new UserRegistry();
             users.Add(new OctetString("usr-none-none"), DefaultPrivacyProvider.DefaultPair);
