@@ -1,5 +1,5 @@
+image: gitpod/workspace-dotnet
 
-image: mcr.microsoft.com/dotnet/sdk:7.0
 vscode:
   extensions:
     - muhammad-sammy.csharp
