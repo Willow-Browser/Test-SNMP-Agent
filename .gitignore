@@ -2,3 +2,6 @@
 bin
 obj
 out
+
+# project
+.vs
